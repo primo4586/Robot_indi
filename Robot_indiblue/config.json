@@ -1,0 +1,80 @@
+{
+    "name": "4586 Robot Indi(blue)",
+    "sourceUrl": "",
+    "isFTC": false,
+    "disableSimplification": true,
+    "rotations": [
+        {
+            "axis": "y",
+            "degrees": 180
+        },
+        {
+            "axis": "z",
+            "degrees": -90
+        }
+    ],
+    "position": [
+        0.0,
+        0.0,
+        0.1
+    ],
+    "cameras": [
+        {
+            "name": "Arducam",
+            "rotations": [
+                {
+                    "axis": "z",
+                    "degrees": 180
+                }
+            ],
+            "position": [
+                0.0068,
+                0.0105,
+                0.4222
+            ],
+            "resolution": [
+                1280,
+                800
+            ],
+            "fov": 70.0
+        }
+    ],
+    "components": [
+        {
+            "name": "intake arm",
+            "zeroedRotations": [
+                {
+                    "axis": "z",
+                    "degrees": -90
+                },
+                {
+                    "axis": "x",
+                    "degrees": 180
+                }
+            ],
+            "zeroedPosition": [
+                0.20005966,
+                0.0325,
+                0.35192374
+            ]
+        },
+        {
+            "name":"hood",
+            "zeroedRotations": [
+                {
+                    "axis": "z",
+                    "degrees":0
+                },
+                {
+                    "axis": "x",
+                    "degrees": 90
+                }
+            ],
+            "zeroedPosition": [
+               0,
+                  0 ,
+                0
+            ]
+        }
+    ]
+}
